@@ -1,0 +1,34 @@
+.Header {
+  background-color: rgb(10, 10, 10);
+}
+
+.logoVDV {
+  height: 3rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.nav-item {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 60px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-item:hover {
+  color: #ffd725;
+}
